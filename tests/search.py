@@ -8,7 +8,7 @@ class SearchTests(unittest.TestCase):
 
     def setUp(self):
 
-        cd_url = '/Users/alexus/PycharmProjects/OrangeHRM/Drivers/chromedriver'
+        cd_url = '/Users/alexus/PycharmProjects/MyTestHRM/Drivers/chromedriver'
         browser = webdriver.Chrome(executable_path=cd_url)
         url = 'http://hrm-online.portnov.com'
         browser.get(url)
